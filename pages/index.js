@@ -1,5 +1,11 @@
+import Link from "next/link";
+import Layout from "../components/Layout";
+
 const Index = () => (
-    <div>Welcome to the home page</div>
+    <Layout title="Home">
+        <Link href="/about">About</Link>
+        <p>Welcome to the home page</p>
+    </Layout>
 )
 
 export default Index
